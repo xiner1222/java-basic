@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
-
+//指针操作， 边界条件， 内存泄漏
 public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>,Deque<E>,Serializable {
 
     private Node<E> head;
